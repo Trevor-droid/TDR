@@ -1,0 +1,60 @@
+#include<stdio.h>
+
+int main()
+{
+	
+	int a;
+	int b;
+	
+	printf("Enter the first number : ");
+	scanf("%d",&a);
+	
+	printf("Enter the second number : ");
+	scanf("%d",&b);
+	
+	if (a > b)
+	{
+	printf("The max number is %d",a);
+	printf("\nThe min number is %d",b);	
+	}
+	
+	else
+	
+	{
+	printf("The max number is %d",b);
+	printf("\nThe min number is %d",a);	
+	}
+	
+	
+	return 0;
+
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
